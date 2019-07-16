@@ -26,7 +26,7 @@ const fs = require("fs");
      case "tail": commandLibrary.tail(userInputArray.slice(1));
         break;
      
-     default: process.stdout.write('Typed command is defined');
+     default: process.stdout.write('Typed command is undefined');
     }
   }
 
